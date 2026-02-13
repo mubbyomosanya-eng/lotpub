@@ -1,4 +1,4 @@
- {
+{
   "name": "lotpub-website",
   "version": "1.0.0",
   "scripts": {
@@ -6,13 +6,12 @@
     "build": "next build",
     "start": "next start"
   },
-  "vercel": {
-    "buildCommand": "npm run build",
-    "outputDirectory": ".next",
-    "devCommand": "npm run dev",
-    "installCommand": "npm install"
-  }
-,
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
