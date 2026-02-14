@@ -125,6 +125,12 @@ export default function TeamPreview() {
           Full Team Overview
           <ArrowRight className="w-5 h-5" />
         </Link>
+         <Link 
+              href="/contact" 
+              className="px-6 py-2 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all"
+            >
+              Contact
+          </Link>
       </div>
  
     </section>
