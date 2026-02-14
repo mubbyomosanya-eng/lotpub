@@ -51,12 +51,6 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
               </Link>
             ))}
-            <Link 
-              href="/contact" 
-              className="px-6 py-2 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all"
-            >
-              Contact
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,4 +82,5 @@ export default function Navbar() {
       </div>
     </nav>
   );
+
 }
