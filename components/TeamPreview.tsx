@@ -99,7 +99,6 @@ export default function TeamPreview() {
               </div>
               
               <div className="flex justify-between items-center pt-4 border-t border-gray-800">
-                <span className="text-gray-400">Age: <span className="font-bold text-white">{member.age}</span></span>
                 <div className="flex gap-3">
                   <button className={`p-2 rounded-lg ${member.bgColor} hover:opacity-80 transition-opacity`}>
                     <Github className="w-5 h-5" />
@@ -133,4 +132,5 @@ export default function TeamPreview() {
     </section>
   );
 }
+
 
