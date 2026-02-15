@@ -11,7 +11,6 @@ const teamMembers = [
     color: "blue",
     skills: ["Full-Stack Dev", "Game Development", "3D Modeling"],
     programming: "HTML, CSS, JS, Node.js, React, Next.js, Godot, Blender",
-    age: 16,
     gradient: "from-blue-500 to-cyan-500",
     iconColor: "text-blue-400",
     bgColor: "bg-blue-500/10",
@@ -24,7 +23,6 @@ const teamMembers = [
     color: "green",
     skills: ["Frontend Wizard", "UI/UX Design", "Backend Logic"],
     programming: "HTML, CSS, JS, Node.js, React, Next.js, Tailwind",
-    age: 15,
     gradient: "from-green-500 to-emerald-500",
     iconColor: "text-green-400",
     bgColor: "bg-green-500/10",
@@ -37,7 +35,6 @@ const teamMembers = [
     color: "red",
     skills: ["Financial Management", "Project Coordination", "Client Relations"],
     programming: "Microsoft Excel, Financial Planning, Operations",
-    age: 16,
     gradient: "from-red-500 to-pink-500",
     iconColor: "text-red-400",
     bgColor: "bg-red-500/10",
@@ -136,3 +133,4 @@ export default function TeamPreview() {
     </section>
   );
 }
+
