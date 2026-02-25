@@ -1,4 +1,5 @@
 import { ArrowRight, Code2, Sparkles } from "lucide-react";
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -31,14 +32,19 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-blue-500/30 transition-all hover:scale-105">
-            View Our Work
-            <Code2 className="w-5 h-5" />
-          </button>
-          <button className="px-8 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-lg font-semibold text-lg transition-all">
-            Meet The Team
-          </button>
-        </div>
+  <Link 
+    href="/projects"
+    className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg font-semibold text-lg flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-blue-500/30 transition-all hover:scale-105"
+  >
+    View Our Work
+  </Link>
+  <Link 
+    href="/about"
+    className="px-8 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-lg font-semibold text-lg transition-all"
+  >
+    Meet The Team
+  </Link>
+</div>
         
         {/* Tech Stack Badges */}
         <div className="mt-16 flex flex-wrap justify-center gap-4">
@@ -52,4 +58,5 @@ export default function Hero() {
       </div>
     </section>
   );
+
 }
